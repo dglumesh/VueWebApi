@@ -58,7 +58,7 @@ namespace WebApi
             }
 
             app.UseCors(options =>
-            options.WithOrigins("http://localhost:8080")
+            options.WithOrigins("https://vueclientapp.z23.web.core.windows.net")
             .AllowAnyMethod()
             .AllowAnyHeader());
 
